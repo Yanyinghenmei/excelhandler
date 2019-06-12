@@ -46,12 +46,6 @@ def read_excel():
     #     if p.ctype == 3:
     #         print(date(*p[:3]).strftime('%Y/%m/%d'))
 
-    # 获取表格内容的三种方式
-    # cell = sheet1.cell(1,1)
-    
-    # print(cell.ctype)
-    # print(cell.value)
-
 
 if __name__ == "__main__":
     read_excel()
